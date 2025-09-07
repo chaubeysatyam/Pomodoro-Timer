@@ -1,4 +1,14 @@
 # Routine Pro — Task Tracker & Pomodoro 
+<p align="center">
+  <img src="https://github.com/chaubeysatyam/Pomodoro-Timer/blob/8bddbd4100e4494b4a8a8c84daf193cdbef44d9f/images/Ui.png?raw=true" alt="Screenshot 1" width="90%" />
+  <img src="https://github.com/chaubeysatyam/Pomodoro-Timer/blob/8bddbd4100e4494b4a8a8c84daf193cdbef44d9f/images/addingtask.png?raw=true" alt="Screenshot 2" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/chaubeysatyam/Pomodoro-Timer/blob/8bddbd4100e4494b4a8a8c84daf193cdbef44d9f/images/Settings.png?raw=true" alt="Screenshot 3" width="90%" />
+  <img src="https://github.com/chaubeysatyam/Pomodoro-Timer/blob/8bddbd4100e4494b4a8a8c84daf193cdbef44d9f/images/notification.png?raw=true" alt="Screenshot 4" width="90%" />
+</p>
+
 
 A modern, premium-looking desktop app to manage tasks and focus sessions with a floating Pomodoro timer. Built with Python + PyQt5, backed by SQLite, styled with a polished macOS-inspired dark theme.
 
@@ -154,7 +164,7 @@ Build:
 ```bash
 pyinstaller --noconfirm --windowed --onefile ^
   --icon study.ico ^
-  --add-data "task.db;." ^
+  --add-data "tasks.db;." ^
   --add-data "sounds;sounds" ^
   main.py
 ```
@@ -193,5 +203,6 @@ pyinstaller --noconfirm --windowed --onefile ^
 
 ## Acknowledgements
 - PyQt5 for the desktop toolkit
-- Created with the support of AI agents, insights from YouTube tutorials, and a lot of personal effort.
+- Created with the support of AI agents, insights from YouTube tutorials, and  personal effort.
+
 
